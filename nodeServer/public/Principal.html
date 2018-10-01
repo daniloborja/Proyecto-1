@@ -9,11 +9,27 @@
 
     <title>TecnoSolutions</title>
 
-    <!-- Bootstrap core CSS -->
+    <script src="./js/jquery.min.js"></script>
     <link href="./Principal_files/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="./Principal_files/product.css" rel="stylesheet">
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.carousel').carousel({
+                interval:3000
+            });
+        })
+    </script>
+    <link href="assets/css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+    <script type="text/javascript" language="javascript" src="assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" language="javascript" src="assets/js/jquery.skitter.min.js"></script>
+    <script type="text/javascript" language="javascript">
+      $(document).ready(function(){
+        $('.box_skitter_medium').css({width: 1200, height: 300}).skitter({
+                  show_randomly: false, progressbar: true, dots: true, interval: 3000, numbers_align: 'center', theme: 'clean'});
+        }
+          );
+    </script>
   </head>
 
   <body>
@@ -33,6 +49,28 @@
       </div>
     </nav>
 
+    <div class="row-fluid d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="span12" style="height: 310px;">
+            <div class="altura">
+                <div class="box_skitter box_skitter_medium">
+                  <ul>
+                    <li><a href="#horizontal"><img src="images/Banner_gigante1.jpg" class="horizontal" /></a><div class="label_text"><p>Nuevos Articulos</p></div></li>
+                    <li><a href="#cubeSpread"><img src="images/Banner_gigante2.jpg" class="cubeSpread" /></a><div class="label_text"><p>Laptops</p></div></li>
+                    <li><a href="#block"><img src="images/Banner_gigante3.jpg" class="block" /></a><div class="label_text"><p>Nuevo Samsung</p></div></li>
+                    <li><a href="#cubeStop"><img src="images/Banner_gigante4.jpg" class="cut" /></a><div class="label_text"><p>Nuevo LG</p></div></li>
+                    <li><a href="#blind"><img src="images/Banner_gigante5.jpg" class="blind" /></a><div class="label_text"><p>Laptops DELL</p></div></li>
+                    <li><a href="#fadefour"><img src="images/Banner_gigante6.jpg" class="fadefour" /></a><div class="label_text"><p>Laptops Lenovo</p></div></li>
+                    <li><a href="#paralell"><img src="images/Banner_gigante7.jpg" class="paralell" /></a><div class="label_text"><p>Portatiles de Ecuador</p></div></li>
+                  </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+<!--
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
       <div class="col-md-5 p-lg-5 mx-auto my-5">
         <h1 class="display-4 font-weight-normal">Tecnologias Web</h1>       
@@ -42,8 +80,18 @@
       <div class="product-device shadow-sm d-none d-md-block"></div>
       <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
+-->
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Todo esta al alcance de tus manos</h2>
+          <p class="lead">Como llegar a nuestra localidad</p>
+        </div>
+        <div class="bg-white shadow-sm mx-auto" style="width: 100%; height: 100%; border-radius: 21px 21px 0 0;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1993.460827105733!2d-79.87814742890548!3d-2.183416408604957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1535160612298" width="400px" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
       <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
         <div class="my-3 py-3">
           <h2 class="display-5">Video Corporativo</h2>
@@ -51,66 +99,6 @@
         </div>
         <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><iframe width="80%" height="300" src="https://www.youtube.com/embed/iZDMFPD7TaQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
         <iframe width="220" height="250" src="https://www.youtube.com/watch?v=iZDMFPD7TaQ" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <!--
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-      <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-      -->
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Todo esta al alcance de tus manos</h2>
-          <p class="lead">Escribenos al correo: eandrade@montepiedra.edu.ec.</p>
-        </div>
-        <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="irc_mi" src="https://fotografias.lasexta.com/clipping/cmsimages02/2013/11/25/947DC682-D79E-450E-A22D-15F77CB7661B/58.jpg" alt="Resultado de imagen para tecnologia" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="408" height="231" style="margin-top: 61px;"></div>
       </div>
     </div>
 
@@ -125,41 +113,41 @@
 
         </div>
         <div class="col-6 col-md">
-          <h5>Features</h5>
+          <h5>Caracteristicas</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Cool stuff</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Random feature</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Team feature</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Stuff for developers</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Another one</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Last time</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Cosas Interesantes</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Caracteristicas Aleatoreas</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Caracteristicas de Equipo</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Cosas para Desarrolladores</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Otros</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Lo ultimo</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
           <h5>Resources</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Resource</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Resource name</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Another resource</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Final resource</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Recursos</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Nombre de Recurso</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Otro recurso</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Recurso Final</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
-          <h5>Resources</h5>
+          <h5>Recursos</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Business</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Education</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Government</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Gaming</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Negocios</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Educacion</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Gobierno</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Juegos</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
-          <h5>About</h5>
+          <h5>Acerca</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Team</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Locations</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Privacy</a></li>
-            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Terms</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Equipo</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Lugares</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Privacidad</a></li>
+            <li><a class="text-muted" href="http://getbootstrap.com/docs/4.1/examples/product/#">Terminos</a></li>
           </ul>
         </div>
       </div>
