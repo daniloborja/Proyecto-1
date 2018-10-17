@@ -1,0 +1,32 @@
+id_localidad,id_canton,nombre
+1,1,"San Marino"
+2,2,"Duran City"
+3,3,"Samborondon City"
+4,4,Quicentro
+5,5,"Cayambe City"
+6,6,"Pichincha Local"
+7,7,"Cuenca Mall"
+8,8,"Chordeleg Mall"
+
+id_producto,id_marca,id_categoria,nombre
+1,1,1,"ipad 32"
+2,1,2,"iphone 32"
+3,1,3,earpods
+4,1,1,"ipad 64"
+5,1,2,"iphone 64"
+6,1,3,"charger apple"
+7,1,1,"ipad 128"
+8,2,2,"s7 edge"
+9,2,3,"earpods samsung"
+10,2,1,"samsung i7"
+11,2,2,"s8 edge"
+12,2,3,"charger samsung"
+13,2,1,"samsung i5"
+14,2,2,"s9 edge"
+15,3,3,"earpods sony"
+16,3,1,"vaio i7"
+17,3,2,"sony mobile 32"
+18,3,3,"charger sony"
+19,3,1,"vaio i3"
+20,3,2,"sony mobile 64"
+21,3,3,"camera sony"
